@@ -31,7 +31,11 @@
   <a href="mailto:inakisobera8@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail">
   </a>
+  <a href="https://www.linkedin.com/in/i%C3%B1aki-sobera-sotomayor-40a87b300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn">
+  </a>
 </p>
+
 
 ## 🛠️ My Skills
 
