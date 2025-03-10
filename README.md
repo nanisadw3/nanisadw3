@@ -176,10 +176,6 @@
 [![](https://github-readme-streak-stats.herokuapp.com/?user=nanisadw3&theme=material-palenight)](https://github.com/nanisadw3)
 </div>
 
-----
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/resources/img/github-contribution-grid-snake.svg"
-    alt="example" />
-</p>
+
 
 
