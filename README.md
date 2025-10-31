@@ -44,12 +44,18 @@
 
 ### <picture> 
 
-<picture> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50px"></picture> Programming languages
+<picture>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px">
+</picture> Programming languages
 
 <p align="center"> 
   &emsp;
   <a href="https://www.java.com" target="_blank"> 
     <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?style=for-the-badge&logo=java&logoColor=white">
+  </a>
+  &emsp;
+  <a href="https://www.python.org" target="_blank"> 
+    <img alt="Python" src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white">
   </a>
   &emsp;
   <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
