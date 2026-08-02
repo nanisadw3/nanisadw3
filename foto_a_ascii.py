@@ -31,13 +31,13 @@ def generar_ascii_centrado_definitivo():
         if current_aspect > target_aspect:
             # Rellenar arriba y abajo
             nuevo_alto = int(w_cropped / target_aspect)
-            img_canvas = Image.new("L", (w_cropped, nuevo_alto), 0)
+            img_canvas = Image.new("L", (w_cropped, nuevo_alto), 40)
             offset_y = (nuevo_alto - h_cropped) // 2
             img_canvas.paste(img_cropped, (0, offset_y))
         else:
             # Rellenar a los lados (izquierda y derecha) para no recortar el alto
             nuevo_ancho = int(h_cropped * target_aspect)
-            img_canvas = Image.new("L", (nuevo_ancho, h_cropped), 0)
+            img_canvas = Image.new("L", (nuevo_ancho, h_cropped), 40)
             offset_x = (nuevo_ancho - w_cropped) // 2
             img_canvas.paste(img_cropped, (offset_x, 0))
             
