@@ -1,41 +1,43 @@
 from PIL import Image
 
-# 1. Configuración de entrada y salida
-RUTA_IMAGEN = "20241222_145921 (1).jpg"  # Nombre de tu archivo de imagen
+# 1. Configuración de archivo
+RUTA_IMAGEN = "20241222_145921 (1).jpg"
 SALIDA = "portrait.txt"
 
-# 2. Dimensiones exactas para cubrir TODA la pantalla del SVG (90x52)
-ANCHO = 90
-ALTO = 52
+# 2. Medida EXACTA para que no se salga del recuadro VISUAL.MAP
+ANCHO = 78
+ALTO = 48
 
-# 3. Rampa de caracteres (de sombra a luz para fondo oscuro)
-# Si al verlo en tu perfil sientes que parece un negativo, invierte esta cadena: "@%#*+=-:. "
+# 3. Rampa de caracteres para buen contraste en fondo oscuro
 ASCII_CHARS = " .:-=+*#%@"
 
-def generar_ascii(ruta):
+def generar_ascii_perfecto(ruta):
     try:
-        # Abrir imagen y convertir a blanco y negro (escala de grises)
         img = Image.open(ruta).convert("L")
+        ancho_orig, alto_orig = img.size
         
-        # Redimensionar exactamente a la rejilla completa de la terminal (90x52)
-        img = img.resize((ANCHO, ALTO))
-        pixeles = img.getdata()
+        # 4. RECORTE CENTRADO EN EL ROSTRO (Sin techo del auto ni bordes sobrantes)
+        izq = int(ancho_orig * 0.15)
+        sup = int(alto_orig * 0.18)
+        der = int(ancho_orig * 0.85)
+        inf = int(alto_orig * 0.75)
         
-        # Mapear cada píxel (0 a 255) a un carácter ASCII
+        img_recortada = img.crop((izq, sup, der, inf))
+        
+        # 5. Redimensionar al tamaño exacto de la caja (78x48)
+        img_final = img_recortada.resize((ANCHO, ALTO))
+        pixeles = img_final.getdata()
+        
         caracteres = [ASCII_CHARS[pixel * len(ASCII_CHARS) // 256] for pixel in pixeles]
-        
-        # Formatear el texto en filas y columnas
         lineas = ["".join(caracteres[i:i + ANCHO]) for i in range(0, len(caracteres), ANCHO)]
         
-        # Guardar en portrait.txt
         with open(SALIDA, "w", encoding="utf-8") as f:
             f.write("\n".join(lineas))
             
-        print(f"¡Éxito! Tu rostro en tamaño completo (90x52) se guardó en '{SALIDA}'.")
+        print(f"✔ ¡Listo! Rostro ajustado exactamente al recuadro (78x48) en '{SALIDA}'.")
         
     except FileNotFoundError:
-        print(f"Error: No se encontró el archivo '{RUTA_IMAGEN}' en esta carpeta.")
+        print(f"Error: No se encontró '{RUTA_IMAGEN}'.")
 
 if __name__ == "__main__":
-    generar_ascii(RUTA_IMAGEN)
-
+    generar_ascii_perfecto(RUTA_IMAGEN)
