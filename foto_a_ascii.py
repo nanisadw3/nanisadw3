@@ -38,3 +38,4 @@ def generar_ascii(ruta):
 
 if __name__ == "__main__":
     generar_ascii(RUTA_IMAGEN)
+
