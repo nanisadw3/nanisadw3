@@ -1,7 +1,7 @@
 <a href="https://github.com/nanisadw3/nanisadw3">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dark.svg?v=7851">
-    <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/light.svg?v=7851">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dark.svg?v=9999">
+    <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/light.svg?v=9999">
   </picture>
   <p align="center">
   <img

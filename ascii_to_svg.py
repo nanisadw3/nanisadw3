@@ -4,8 +4,8 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-# START_X = 40 centra las 96 columnas matemáticamente dentro de VISUAL.MAP
-START_X = 40
+# START_X = 25 alinea las 104 columnas para cubrir de borde izquierdo a derecho en VISUAL.MAP
+START_X = 25
 START_Y = 80.00
 LINE_HEIGHT = 7.55
 
@@ -29,4 +29,4 @@ Path(OUTPUT).write_text(
     encoding="utf-8"
 )
 
-print(f"✔ Generadas {len(svg)} líneas centradas horizontalmente en X={START_X}.")
+print(f"✔ Generadas {len(svg)} líneas alineadas en X={START_X} para cubrir todo el ancho.")
