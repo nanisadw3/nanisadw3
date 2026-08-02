@@ -4,9 +4,9 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-START_X = 25
+# START_X = 38 centra matemáticamente las 88 columnas en el recuadro VISUAL.MAP
+START_X = 38
 START_Y = 80.00
-# LINE_HEIGHT 7.00 permite que las 56 filas encajen perfecto de arriba a abajo sin salirse
 LINE_HEIGHT = 7.00
 
 lines = Path(INPUT).read_text(
@@ -29,4 +29,4 @@ Path(OUTPUT).write_text(
     encoding="utf-8"
 )
 
-print(f"✔ Generadas {len(svg)} líneas alineadas perfectamente sin aplastar el rostro.")
+print(f"✔ Generadas {len(svg)} líneas centradas en X={START_X} con proporción natural.")
