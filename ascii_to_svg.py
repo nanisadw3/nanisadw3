@@ -4,10 +4,10 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-# START_X = 44 deja exactamente el mismo espacio vacío a la izquierda y a la derecha
-START_X = 44
+# START_X = 26 alinea el texto exactamente en el borde izquierdo de VISUAL.MAP
+START_X = 26
 START_Y = 80.00
-LINE_HEIGHT = 7.00
+LINE_HEIGHT = 7.40
 
 lines = Path(INPUT).read_text(
     encoding="utf-8",
@@ -29,4 +29,4 @@ Path(OUTPUT).write_text(
     encoding="utf-8"
 )
 
-print(f"✔ Generadas {len(svg)} líneas centradas con precisión en X={START_X}.")
+print(f"✔ Generadas {len(svg)} líneas alineadas en el borde exacto (X={START_X}).")
