@@ -4,8 +4,8 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-# START_X = 30 centra matemáticamente 92 columnas con margen simétrico en VISUAL.MAP
-START_X = 30
+# START_X = 65 centra matemáticamente 92 columnas con margen simétrico en VISUAL.MAP
+START_X = 65
 START_Y = 79.98
 LINE_HEIGHT = 7.548
 
