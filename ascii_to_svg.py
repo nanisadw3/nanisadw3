@@ -4,10 +4,10 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-# START_X = 25 alinea las 104 columnas para cubrir de borde izquierdo a derecho en VISUAL.MAP
 START_X = 25
 START_Y = 80.00
-LINE_HEIGHT = 7.55
+# LINE_HEIGHT 7.00 permite que las 56 filas encajen perfecto de arriba a abajo sin salirse
+LINE_HEIGHT = 7.00
 
 lines = Path(INPUT).read_text(
     encoding="utf-8",
@@ -29,4 +29,4 @@ Path(OUTPUT).write_text(
     encoding="utf-8"
 )
 
-print(f"✔ Generadas {len(svg)} líneas alineadas en X={START_X} para cubrir todo el ancho.")
+print(f"✔ Generadas {len(svg)} líneas alineadas perfectamente sin aplastar el rostro.")
