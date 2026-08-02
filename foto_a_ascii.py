@@ -14,19 +14,25 @@ def generar_ascii_centrado_definitivo():
         img = Image.open(RUTA_IMAGEN).convert("L")
         ancho_orig, alto_orig = img.size
         
-        # 1. Recorte horizontal para centrar tu rostro (eliminamos el vacío del coche a la izquierda)
-        izq = int(ancho_orig * 0.08)
-        der = int(ancho_orig * 0.98)
-        nuevo_ancho = der - izq
+        # Relación de aspecto aproximada en el SVG (414px de ancho / 400px de alto)
+        target_aspect = 1.035
+        current_aspect = ancho_orig / alto_orig
         
-        # 2. Proporción física real (1.10) para evitar que la cara se vea aplastada o ancha
-        ratio_fisico_svg = 1.10
-        alto_ideal = int(nuevo_ancho / ratio_fisico_svg)
-        
-        margen_y = max(0, (alto_orig - alto_ideal) // 2)
-        sup = int(margen_y * 0.8)
-        inf = min(alto_orig, sup + alto_ideal)
-        
+        if current_aspect > target_aspect:
+            # Recorte horizontal minimal para centrar la imagen
+            nuevo_ancho = int(alto_orig * target_aspect)
+            izq = (ancho_orig - nuevo_ancho) // 2
+            der = izq + nuevo_ancho
+            sup = 0
+            inf = alto_orig
+        else:
+            # Recorte vertical minimal para centrar la imagen
+            nuevo_alto = int(ancho_orig / target_aspect)
+            sup = (alto_orig - nuevo_alto) // 2
+            inf = sup + nuevo_alto
+            izq = 0
+            der = ancho_orig
+            
         img_recortada = img.crop((izq, sup, der, inf))
         img_final = img_recortada.resize((ANCHO, ALTO))
         
