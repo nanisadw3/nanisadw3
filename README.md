@@ -152,20 +152,20 @@
 <p align="center">
   <!-- Stats Generales -->
   <a href="https://github.com/nanisadw3">
-    <img src="https://github-readme-stats.vercel.app/api?username=nanisadw3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+    <img src="https://github-stats-extended.vercel.app/api?username=nanisadw3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   </a>
 </p>
 
 <p align="center">
   <!-- Racha (Streak) -->
   <a href="https://github.com/nanisadw3">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nanisadw3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=nanisadw3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
 </p>
 
 <p align="center">
   <!-- Top Languages -->
   <a href="https://github.com/nanisadw3">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nanisadw3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nanisadw3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
   </a>
 </p>

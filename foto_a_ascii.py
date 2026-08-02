@@ -1,11 +1,11 @@
 from PIL import Image
 
-RUTA_IMAGEN = "Gemini_Generated_Image_3mdvgr3mdvgr3mdv.png"
+RUTA_IMAGEN = "20241222_145921 (1).jpg"
 SALIDA = "portrait.txt"
 
-# 98 columnas x 54 filas llena el recuadro con simetría perfecta
-ANCHO = 98
-ALTO = 54
+# 92 columnas x 53 filas llena el recuadro con simetría perfecta
+ANCHO = 92
+ALTO = 53
 
 ASCII_CHARS = " .:-=+*#%@"
 

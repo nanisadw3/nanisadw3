@@ -4,10 +4,10 @@ from html import escape
 INPUT = "portrait.txt"
 OUTPUT = "portrait_tspan.txt"
 
-# START_X = 24 centra matemáticamente 98 columnas con margen simétrico en VISUAL.MAP
-START_X = 24
-START_Y = 80.00
-LINE_HEIGHT = 7.15
+# START_X = 30 centra matemáticamente 92 columnas con margen simétrico en VISUAL.MAP
+START_X = 30
+START_Y = 79.98
+LINE_HEIGHT = 7.548
 
 lines = Path(INPUT).read_text(
     encoding="utf-8",
