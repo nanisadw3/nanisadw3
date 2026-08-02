@@ -3,13 +3,13 @@ from PIL import Image
 RUTA_IMAGEN = "20241222_145921 (1).jpg"
 SALIDA = "portrait.txt"
 
-# 84x56 elimina por completo el efecto "aplastado" y da proporciones 100% reales
-ANCHO = 84
+# 90x56 mantiene tu rostro delgado, natural, alejado y proporcionado
+ANCHO = 90
 ALTO = 56
 
 ASCII_CHARS = " .:-=+*#%@"
 
-def generar_ascii_centrado_perfecto():
+def generar_ascii_definitivo():
     try:
         img = Image.open(RUTA_IMAGEN).convert("L")
         img_final = img.resize((ANCHO, ALTO))
@@ -21,10 +21,10 @@ def generar_ascii_centrado_perfecto():
         with open(SALIDA, "w", encoding="utf-8") as f:
             f.write("\n".join(lineas))
             
-        print(f"✔ ¡Listo! Retrato natural sin aplastar ({ANCHO}x{ALTO}) en '{SALIDA}'.")
+        print(f"✔ ¡Listo! Retrato natural y proporcionado ({ANCHO}x{ALTO}) guardado en '{SALIDA}'.")
         
     except FileNotFoundError:
         print(f"Error: No se encontró '{RUTA_IMAGEN}'.")
 
 if __name__ == "__main__":
-    generar_ascii_centrado_perfecto()
+    generar_ascii_definitivo()
