@@ -1,12 +1,16 @@
-<div align="center">
-  <!-- Cabecera Animada -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Hi,%20I'm%20I%C3%B1aki&fontSize=42&fontColor=ffffff&animation=twinkling" alt="Header Banner" />
-
-  <!-- Subtítulo / Typing Animado -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=50&lines=Software+Engineer+%7C+System+Architecture;Passionate+about+Technology+%26+Development;Exploring+AI%2C+Cloud+%26+Cybersecurity;Building+Innovative+Projects" alt="Typing SVG" />
-  </a>
-</div>
+<a href="https://github.com/nanisadw3/nanisadw3">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dark.svg">
+    <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/light.svg">
+  </picture>
+  <p align="center">
+  <img
+    src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dist/github-jet.svg"
+    alt="GitHub Jet Heatmap"
+    width="100%"
+  />
+</p>
+</a>
 
 ---
 
