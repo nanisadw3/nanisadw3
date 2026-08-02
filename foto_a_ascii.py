@@ -10,31 +10,26 @@ ALTO = 53
 ASCII_CHARS = " .:-=+*#%@"
 
 def generar_ascii_centrado_definitivo():
-    try:
         img = Image.open(RUTA_IMAGEN).convert("L")
         ancho_orig, alto_orig = img.size
-        
         # Relación de aspecto aproximada en el SVG (414px de ancho / 400px de alto)
         target_aspect = 1.035
         current_aspect = ancho_orig / alto_orig
         
         if current_aspect > target_aspect:
-            # Recorte horizontal minimal para centrar la imagen
-            nuevo_ancho = int(alto_orig * target_aspect)
-            izq = (ancho_orig - nuevo_ancho) // 2
-            der = izq + nuevo_ancho
-            sup = 0
-            inf = alto_orig
-        else:
-            # Recorte vertical minimal para centrar la imagen
+            # Imagen más ancha: rellenar arriba y abajo
             nuevo_alto = int(ancho_orig / target_aspect)
-            sup = (alto_orig - nuevo_alto) // 2
-            inf = sup + nuevo_alto
-            izq = 0
-            der = ancho_orig
+            img_canvas = Image.new("L", (ancho_orig, nuevo_alto), 0)
+            offset_y = (nuevo_alto - alto_orig) // 2
+            img_canvas.paste(img, (0, offset_y))
+        else:
+            # Imagen más alta: rellenar a los lados (izquierda y derecha) para no recortar
+            nuevo_ancho = int(alto_orig * target_aspect)
+            img_canvas = Image.new("L", (nuevo_ancho, alto_orig), 0)
+            offset_x = (nuevo_ancho - ancho_orig) // 2
+            img_canvas.paste(img, (offset_x, 0))
             
-        img_recortada = img.crop((izq, sup, der, inf))
-        img_final = img_recortada.resize((ANCHO, ALTO))
+        img_final = img_canvas.resize((ANCHO, ALTO))
         
         pixeles = list(img_final.getdata())
         caracteres = [ASCII_CHARS[pixel * len(ASCII_CHARS) // 256] for pixel in pixeles]
@@ -42,11 +37,7 @@ def generar_ascii_centrado_definitivo():
         
         with open(SALIDA, "w", encoding="utf-8") as f:
             f.write("\n".join(lineas))
-            
         print(f"✔ ¡Listo! Retrato centrado, proporcionado y simétrico ({ANCHO}x{ALTO}) en '{SALIDA}'.")
-        
-    except FileNotFoundError:
-        print(f"Error: No se encontró '{RUTA_IMAGEN}'.")
 
 if __name__ == "__main__":
     generar_ascii_centrado_definitivo()
