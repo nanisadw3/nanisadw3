@@ -3,30 +3,32 @@ from PIL import Image
 RUTA_IMAGEN = "20241222_145921 (1).jpg"
 SALIDA = "portrait.txt"
 
-# 92 columnas x 52 filas llena exactamente el 100% del recuadro VISUAL.MAP
-ANCHO = 92
-ALTO = 52
+# 98 columnas x 54 filas llena el recuadro con simetría perfecta
+ANCHO = 98
+ALTO = 54
 
 ASCII_CHARS = " .:-=+*#%@"
 
-def generar_ascii_definitivo():
+def generar_ascii_centrado_definitivo():
     try:
         img = Image.open(RUTA_IMAGEN).convert("L")
         ancho_orig, alto_orig = img.size
         
-        # 1. Corrección matemática para 0% de deformación (adiós cara aplastada)
-        # En SVG, 92 caracteres de ancho por 52 líneas equivale a una proporción física de ~0.92
-        ratio_fisico_svg = 0.92
-        alto_meta = int(ancho_orig / ratio_fisico_svg)
+        # 1. Recorte horizontal para centrar tu rostro (eliminamos el vacío del coche a la izquierda)
+        izq = int(ancho_orig * 0.08)
+        der = int(ancho_orig * 0.98)
+        nuevo_ancho = der - izq
         
-        if alto_orig > alto_meta:
-            # Recortamos únicamente el techo sobrante del auto para conservar tu rostro
-            # delgado, hombros y sudadera sin estirar horizontalmente
-            margen = (alto_orig - alto_meta) // 2
-            img = img.crop((0, int(margen * 0.8), ancho_orig, alto_orig - int(margen * 1.2)))
+        # 2. Proporción física real (1.10) para evitar que la cara se vea aplastada o ancha
+        ratio_fisico_svg = 1.10
+        alto_ideal = int(nuevo_ancho / ratio_fisico_svg)
         
-        # 2. Redimensionar a la rejilla exacta de 92x52
-        img_final = img.resize((ANCHO, ALTO))
+        margen_y = max(0, (alto_orig - alto_ideal) // 2)
+        sup = int(margen_y * 0.8)
+        inf = min(alto_orig, sup + alto_ideal)
+        
+        img_recortada = img.crop((izq, sup, der, inf))
+        img_final = img_recortada.resize((ANCHO, ALTO))
         
         pixeles = list(img_final.getdata())
         caracteres = [ASCII_CHARS[pixel * len(ASCII_CHARS) // 256] for pixel in pixeles]
@@ -35,10 +37,10 @@ def generar_ascii_definitivo():
         with open(SALIDA, "w", encoding="utf-8") as f:
             f.write("\n".join(lineas))
             
-        print(f"✔ ¡Listo! Retrato natural sin aplastar ({ANCHO}x{ALTO}) en '{SALIDA}'.")
+        print(f"✔ ¡Listo! Retrato centrado, proporcionado y simétrico ({ANCHO}x{ALTO}) en '{SALIDA}'.")
         
     except FileNotFoundError:
         print(f"Error: No se encontró '{RUTA_IMAGEN}'.")
 
 if __name__ == "__main__":
-    generar_ascii_definitivo()
+    generar_ascii_centrado_definitivo()
