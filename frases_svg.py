@@ -1,20 +1,44 @@
-"""Genera assets/frases.svg: tarjeta animada que rota entre frases de desarrollo e IA."""
+"""Genera assets/frases.svg: tarjeta animada en dos renglones con frases de desarrollo e IA."""
 from html import escape
 from pathlib import Path
 
 FRASES = [
-    "La IA no reemplaza al buen ingeniero; potencia la visión de quien domina la arquitectura y el código a fondo.",
-    "Entrena tu lógica como a una red neuronal: cada error de compilación es solo una época más de aprendizaje.",
-    "Automatiza con inteligencia lo repetitivo y enfoca tu creatividad en resolver problemas de alto impacto.",
-    "La verdadera IA nace de bases de datos limpias, algoritmos seguros y sistemas diseñados con propósito.",
-    "Diseña pensando en escalabilidad y seguridad: la IA acelera el camino, pero tu criterio define el destino.",
-    "Un fallo en producción no es el final; es el mejor dataset para entrenar una solución mucho más robusta.",
-    "El prompt perfecto inspira ideas, pero la arquitectura sólida y el código limpio las hacen realidad.",
-    "La constancia le gana al talento, y la disciplina supera a cualquier algoritmo sin una dirección clara.",
+    (
+        "La IA no reemplaza al buen arquitecto; multiplica la visión de quien domina",
+        "la ingeniería de software, los modelos de pesos abiertos y la robustez del backend."
+    ),
+    (
+        "Un prompt puede generar una idea en segundos, pero solo una arquitectura sólida,",
+        "pipelines RAG precisos y código limpio la convierten en una solución de impacto."
+    ),
+    (
+        "Entrena tu criterio técnico con la misma disciplina que un modelo neuronal:",
+        "cada error en consola y cada bug en producción es solo una época más de aprendizaje."
+    ),
+    (
+        "La verdadera innovación con agentes autónomos nace de bases de datos confiables,",
+        "protocolos estándar como MCP y sistemas diseñados para respetar la privacidad."
+    ),
+    (
+        "Automatiza con inteligencia artificial todo aquello que sea repetitivo,",
+        "y dedica tu ingenio a resolver los desafíos más complejos de la computación."
+    ),
+    (
+        "Construir software y agentes locales de pesos abiertos exige paciencia y rigor:",
+        "un commit consciente y bien probado siempre supera a cien líneas improvisadas."
+    ),
+    (
+        "La seguridad y la ética no se añaden como un parche al final del despliegue;",
+        "se forjan desde el diseño del sistema, la primera consulta y cada endpoint."
+    ),
+    (
+        "La constancia técnica siempre superará a la casualidad, y la disciplina diaria",
+        "es el algoritmo definitivo para construir tecnología que trascienda."
+    ),
 ]
 AUTOR = "— Iñaki Sobera Sotomayor"
-ANCHO, ALTO = 680, 122
-SEGUNDOS_POR_FRASE = 5.0
+ANCHO, ALTO = 680, 136
+SEGUNDOS_POR_FRASE = 5.5
 FUNDIDO = 0.08  # fracción del turno usada para aparecer y desaparecer
 
 
@@ -31,15 +55,18 @@ def puntos(i, n):
     return [(round(min(t, 1.0), 5), v) for t, v in pts]
 
 
-def texto(i, n, frase, duracion):
+def texto(i, n, renglones, duracion):
     pts = puntos(i, n)
     tiempos = ";".join(str(t) for t, _ in pts)
     valores = ";".join(str(v) for _, v in pts)
+    r1, r2 = renglones
     return (
-        f'  <text x="{ANCHO // 2}" y="60" text-anchor="middle" font-size="14" '
-        f'fill="#c9d1d9" opacity="0">{escape(frase)}\n'
+        f'  <g opacity="0">\n'
+        f'    <text x="{ANCHO // 2}" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">{escape(r1)}</text>\n'
+        f'    <text x="{ANCHO // 2}" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">{escape(r2)}</text>\n'
         f'    <animate attributeName="opacity" dur="{duracion}s" repeatCount="indefinite" '
-        f'keyTimes="{tiempos}" values="{valores}"/>\n  </text>'
+        f'keyTimes="{tiempos}" values="{valores}"/>\n'
+        f'  </g>'
     )
 
 
@@ -50,14 +77,14 @@ def main():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{ANCHO}" height="{ALTO}" viewBox="0 0 {ANCHO} {ALTO}" role="img" aria-label="Frases motivacionales de desarrollo e Inteligencia Artificial">
   <style>text {{ font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }}</style>
   <rect x="0.5" y="0.5" width="{ANCHO - 1}" height="{ALTO - 1}" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="52" font-size="48" fill="#58a6ff" opacity="0.5" font-family="Georgia, serif">“</text>
+  <text x="24" y="56" font-size="52" fill="#58a6ff" opacity="0.45" font-family="Georgia, serif">“</text>
 {frases}
-  <text x="{ANCHO // 2}" y="98" text-anchor="middle" font-size="13.5" font-style="italic" fill="#58a6ff">{escape(AUTOR)}</text>
+  <text x="{ANCHO // 2}" y="112" text-anchor="middle" font-size="13.5" font-style="italic" fill="#58a6ff">{escape(AUTOR)}</text>
 </svg>
 """
     salida = Path(__file__).parent / "assets" / "frases.svg"
     salida.write_text(svg, encoding="utf-8")
-    print(f"{salida} ({n} frases, ciclo de {duracion}s)")
+    print(f"{salida} ({n} frases en dos renglones, ciclo de {duracion}s)")
 
 
 if __name__ == "__main__":
