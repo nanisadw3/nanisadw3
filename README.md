@@ -133,15 +133,10 @@
 
 ---
 
-<table align="center">
-  <tr>
-    <td align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg?v=v3" alt="Frases Motivacionales" width="540" />
-    </td>
-    <td align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="95" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg?v=v4" alt="Frases Motivacionales" align="middle" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="95" align="middle" />
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Gracias%20por%20visitar%20mi%20perfil&fontSize=20&fontColor=fff&animation=twinkling" width="100%" alt="Footer" />
