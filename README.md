@@ -134,7 +134,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg" alt="Frases Motivacionales" align="middle" />
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg?v=2026092102" alt="Frases Motivacionales" align="middle" />
   &nbsp;
   <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="105" align="middle" />
 </p>

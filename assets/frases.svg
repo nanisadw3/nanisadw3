@@ -1,46 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="136" viewBox="0 0 680 136" role="img" aria-label="Frases motivacionales de desarrollo e Inteligencia Artificial">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="142" viewBox="0 0 720 142" role="img" aria-label="Frases motivacionales de desarrollo e Inteligencia Artificial">
   <style>text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }</style>
-  <rect x="0.5" y="0.5" width="679" height="135" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="56" font-size="52" fill="#58a6ff" opacity="0.45" font-family="Georgia, serif">“</text>
+  <rect x="0.5" y="0.5" width="719" height="141" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="26" y="56" font-size="50" fill="#58a6ff" opacity="0.45" font-family="Georgia, serif">“</text>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">La IA no reemplaza al buen arquitecto; multiplica la visión de quien domina</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">la ingeniería de software, los modelos de pesos abiertos y la robustez del backend.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">La IA no reemplaza al buen arquitecto; multiplica la visión de quien domina</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">la ingeniería de software, los modelos de pesos abiertos y la robustez del backend.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.01;0.115;0.125;1.0" values="0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">Un prompt puede generar una idea en segundos, pero solo una arquitectura sólida,</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">pipelines RAG precisos y código limpio la convierten en una solución de impacto.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">Un prompt puede generar una idea en segundos, pero solo una arquitectura sólida,</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">pipelines RAG precisos y código limpio la convierten en una solución de impacto.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.125;0.135;0.24;0.25;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">Entrena tu criterio técnico con la misma disciplina que un modelo neuronal:</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">cada error en consola y cada bug en producción es solo una época más de aprendizaje.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">Entrena tu criterio técnico con la misma disciplina que un modelo neuronal:</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">cada error en consola y cada bug en producción es solo una época más de aprendizaje.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.25;0.26;0.365;0.375;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">La verdadera innovación con agentes autónomos nace de bases de datos confiables,</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">protocolos estándar como MCP y sistemas diseñados para respetar la privacidad.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">La verdadera innovación con agentes autónomos nace de bases de datos confiables,</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">protocolos estándar como MCP y sistemas diseñados para respetar la privacidad.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.375;0.385;0.49;0.5;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">Automatiza con inteligencia artificial todo aquello que sea repetitivo,</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">y dedica tu ingenio a resolver los desafíos más complejos de la computación.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">Automatiza con inteligencia artificial todo aquello que sea repetitivo,</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">y dedica tu ingenio a resolver los desafíos más complejos de la computación.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.5;0.51;0.615;0.625;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">Construir software y agentes locales de pesos abiertos exige paciencia y rigor:</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">un commit consciente y bien probado siempre supera a cien líneas improvisadas.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">Construir software y agentes locales de pesos abiertos exige paciencia y rigor:</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">un commit consciente y bien probado siempre supera a cien líneas improvisadas.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.625;0.635;0.74;0.75;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">La seguridad y la ética no se añaden como un parche al final del despliegue;</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">se forjan desde el diseño del sistema, la primera consulta y cada endpoint.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">La seguridad y la ética no se añaden como un parche al final del despliegue;</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">se forjan desde el diseño del sistema, la primera consulta y cada endpoint.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.75;0.76;0.865;0.875;1.0" values="0;0;1;1;0;0"/>
   </g>
   <g opacity="0">
-    <text x="340" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">La constancia técnica siempre superará a la casualidad, y la disciplina diaria</text>
-    <text x="340" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">es el algoritmo definitivo para construir tecnología que trascienda.</text>
+    <text x="360" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">La constancia técnica siempre superará a la casualidad, y la disciplina diaria</text>
+    <text x="360" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">es el algoritmo definitivo para construir tecnología que trascienda.</text>
     <animate attributeName="opacity" dur="44.0s" repeatCount="indefinite" keyTimes="0.0;0.875;0.885;0.99;1.0" values="0;0;1;1;0"/>
   </g>
-  <text x="340" y="112" text-anchor="middle" font-size="13.5" font-style="italic" fill="#58a6ff">— Iñaki Sobera Sotomayor</text>
+  <text x="360" y="114" text-anchor="middle" font-size="13" font-style="italic" fill="#58a6ff">— Iñaki Sobera Sotomayor</text>
 </svg>

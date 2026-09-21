@@ -37,7 +37,7 @@ FRASES = [
     ),
 ]
 AUTOR = "— Iñaki Sobera Sotomayor"
-ANCHO, ALTO = 680, 136
+ANCHO, ALTO = 720, 142
 SEGUNDOS_POR_FRASE = 5.5
 FUNDIDO = 0.08  # fracción del turno usada para aparecer y desaparecer
 
@@ -62,8 +62,8 @@ def texto(i, n, renglones, duracion):
     r1, r2 = renglones
     return (
         f'  <g opacity="0">\n'
-        f'    <text x="{ANCHO // 2}" y="52" text-anchor="middle" font-size="14.5" fill="#c9d1d9">{escape(r1)}</text>\n'
-        f'    <text x="{ANCHO // 2}" y="76" text-anchor="middle" font-size="14.5" fill="#c9d1d9">{escape(r2)}</text>\n'
+        f'    <text x="{ANCHO // 2}" y="54" text-anchor="middle" font-size="14" fill="#c9d1d9">{escape(r1)}</text>\n'
+        f'    <text x="{ANCHO // 2}" y="78" text-anchor="middle" font-size="14" fill="#c9d1d9">{escape(r2)}</text>\n'
         f'    <animate attributeName="opacity" dur="{duracion}s" repeatCount="indefinite" '
         f'keyTimes="{tiempos}" values="{valores}"/>\n'
         f'  </g>'
@@ -77,9 +77,9 @@ def main():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{ANCHO}" height="{ALTO}" viewBox="0 0 {ANCHO} {ALTO}" role="img" aria-label="Frases motivacionales de desarrollo e Inteligencia Artificial">
   <style>text {{ font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }}</style>
   <rect x="0.5" y="0.5" width="{ANCHO - 1}" height="{ALTO - 1}" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <text x="24" y="56" font-size="52" fill="#58a6ff" opacity="0.45" font-family="Georgia, serif">“</text>
+  <text x="26" y="56" font-size="50" fill="#58a6ff" opacity="0.45" font-family="Georgia, serif">“</text>
 {frases}
-  <text x="{ANCHO // 2}" y="112" text-anchor="middle" font-size="13.5" font-style="italic" fill="#58a6ff">{escape(AUTOR)}</text>
+  <text x="{ANCHO // 2}" y="114" text-anchor="middle" font-size="13" font-style="italic" fill="#58a6ff">{escape(AUTOR)}</text>
 </svg>
 """
     salida = Path(__file__).parent / "assets" / "frases.svg"
