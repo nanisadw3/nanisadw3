@@ -13,6 +13,10 @@
 </a>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota" width="110" />
+</p>
+
+<p align="center">
   <a href="https://inakisobera.me/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;Administraci%C3%B3n+de+sistemas+Linux;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
   </a>
@@ -22,7 +26,7 @@
 
 ## 🧑‍💻 Sobre Mí
 
-<img align="right" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.png" alt="Mascota" width="150" />
+<img align="right" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/escritorio.gif" alt="Programando" width="300" />
 
 **Ingeniero en Sistemas Computacionales** egresado de **UNITEC Campus Atizapán** (2023 – 2026), especializado en el desarrollo de arquitecturas backend robustas, la integración estratégica de Inteligencia Artificial y el aseguramiento de infraestructuras críticas.
 
