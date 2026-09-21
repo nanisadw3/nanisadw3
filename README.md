@@ -1,17 +1,3 @@
-<a href="https://github.com/nanisadw3/nanisadw3">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dark.svg?v=100005">
-    <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/light.svg?v=100005">
-  </picture>
-  <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/dist/github-jet.svg"
-    alt="GitHub Jet Heatmap"
-    width="100%"
-  />
-</p>
-</a>
-
 <p align="center">
   <a href="https://inakisobera.me/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;Administraci%C3%B3n+de+sistemas+Linux;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
