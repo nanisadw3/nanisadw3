@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 7 * * *"
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -21,6 +24,8 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:

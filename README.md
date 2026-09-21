@@ -13,10 +13,6 @@
 </a>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota" width="110" />
-</p>
-
-<p align="center">
   <a href="https://inakisobera.me/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;Administraci%C3%B3n+de+sistemas+Linux;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
   </a>
@@ -79,6 +75,16 @@
 ## 📊 GitHub Analytics & Performance
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=nanisadw3&label=Vistas+del+Perfil&color=58a6ff&style=flat-square" alt="Vistas del Perfil" />
+  <a href="https://github.com/nanisadw3?tab=followers">
+    <img src="https://img.shields.io/github/followers/nanisadw3?label=Seguidores&style=flat-square&color=238636&logo=github" alt="Seguidores" />
+  </a>
+  <a href="https://github.com/nanisadw3?tab=repositories">
+    <img src="https://img.shields.io/github/stars/nanisadw3?label=Estrellas&style=flat-square&color=e3b341&logo=github" alt="Estrellas" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/nanisadw3">
     <img src="https://github-stats-extended.vercel.app/api?username=nanisadw3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170" />
   </a>
@@ -89,6 +95,7 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=nanisadw3&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nanisadw3&theme=tokyonight&utc_offset=-6" alt="Horas Más Productivas" />
 </p>
 
 <p align="center">
@@ -134,6 +141,16 @@
   <a href="https://inakisobera.me/cv/cv_inaki_sobera.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Curriculum-CV-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CV" />
   </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="110" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg" alt="Frases Motivacionales" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Gracias%20por%20visitar%20mi%20perfil&fontSize=20&fontColor=fff&animation=twinkling" width="100%" alt="Footer" />

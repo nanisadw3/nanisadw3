@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="118" viewBox="0 0 640 118" role="img" aria-label="Frases motivacionales de desarrollo">
+  <style>text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }</style>
+  <rect x="0.5" y="0.5" width="639" height="117" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="22" y="52" font-size="52" fill="#58a6ff" opacity="0.55" font-family="Georgia, serif">“</text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">El código que hoy te cuesta será mañana tu superpoder.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.0125;0.1125;0.125;1.0" values="0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">Un bug es solo una lección con prisa.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.125;0.1375;0.2375;0.25;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">Escribe para quien lo leerá en seis meses: probablemente tú.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.25;0.2625;0.3625;0.375;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">Commit pequeño, avance constante.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.375;0.3875;0.4875;0.5;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">Automatiza lo repetitivo y dedica tu mente a lo creativo.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.5;0.5125;0.6125;0.625;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">La seguridad se diseña desde la primera línea, no al final.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.625;0.6375;0.7375;0.75;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">Cada error de compilación te acerca a que funcione.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.75;0.7625;0.8625;0.875;1.0" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="320" y="58" text-anchor="middle" font-size="17" fill="#c9d1d9" opacity="0">La constancia le gana al talento cuando el talento no compila.
+    <animate attributeName="opacity" dur="36.0s" repeatCount="indefinite" keyTimes="0.0;0.875;0.8875;0.9875;1.0" values="0;0;1;1;0"/>
+  </text>
+  <text x="320" y="94" text-anchor="middle" font-size="14" font-style="italic" fill="#58a6ff">— Iñaki Sobera Sotomayor</text>
+</svg>
