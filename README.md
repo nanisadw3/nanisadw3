@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://inakisobera.me/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;Administraci%C3%B3n+de+sistemas+Linux;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;RAG+%C2%B7+MCP+%C2%B7+Agentes+Locales;Modelos+de+Pesos+Abiertos;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
   </a>
 </p>
 
@@ -13,7 +13,8 @@
 **Ingeniero en Sistemas Computacionales** egresado de **UNITEC Campus Atizapán** (2023 – 2026), especializado en el desarrollo de arquitecturas backend robustas, la integración estratégica de Inteligencia Artificial y el aseguramiento de infraestructuras críticas.
 
 * 🛡️ Apasionado por el **desarrollo backend seguro**, la administración avanzada de servidores **Linux** y la seguridad informática.
-* 🤖 Interesado en la **visión artificial** (OpenCV, YOLO), el **Model Context Protocol (MCP)** y los agentes autónomos.
+* 🤖 Especializado en **IA Generativa y Sistemas Inteligentes**: Diseño e implementación de pipelines **RAG (Retrieval-Augmented Generation)**, integración contextual bajo el estándar **Model Context Protocol (MCP)**, orquestación de **agentes autónomos** y despliegue de **modelos locales de pesos abiertos** (*open-weights LLMs* / Ollama / llama.cpp / vLLM) priorizando privacidad y soberanía de datos.
+* 👁️ Experiencia en **visión computacional** en tiempo real (`OpenCV`, `YOLO`).
 * 🎓 Cursando la **Maestría en Dirección de Proyectos** en UNITEC Campus Atizapán (2026 – en curso).
 * 🌎 Español nativo · Inglés 75%.
 * 🚀 Mi portafolio completo e interactivo está en **[inakisobera.me](https://inakisobera.me/)** · [Descargar CV](https://inakisobera.me/cv/cv_inaki_sobera.pdf).
@@ -30,6 +31,7 @@
 
 | Categoría | Tecnologías |
 | :--- | :--- |
+| **IA, RAG & Agentes** | `Model Context Protocol (MCP)`, `RAG`, `Agentes Autónomos`, `Modelos Locales / Pesos Abiertos`, `Ollama`, `OpenCV`, `YOLO` |
 | **Motor Backend** | `Java`, `Python`, `C#`, `Ruby`, `Bash`, `SQL` |
 | **Backend & APIs** | `Spring Boot`, `Flask`, `Express.js`, `REST APIs`, `WebSockets` |
 | **Datos & BI** | `PostgreSQL`, `MySQL`, `SQL Server`, `Redis`, `Power BI` |
