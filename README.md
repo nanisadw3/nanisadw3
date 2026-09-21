@@ -146,11 +146,9 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="110" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg" alt="Frases Motivacionales" />
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg" alt="Frases Motivacionales" align="middle" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="105" align="middle" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Gracias%20por%20visitar%20mi%20perfil&fontSize=20&fontColor=fff&animation=twinkling" width="100%" alt="Footer" />
