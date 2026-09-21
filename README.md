@@ -11,44 +11,101 @@
   />
 </p>
 </a>
+
+<p align="center">
+  <a href="https://inakisobera.me/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Ingeniero+de+Software;Backend+%C2%B7+IA+%C2%B7+Ciberseguridad;Administraci%C3%B3n+de+sistemas+Linux;Construyendo+arquitecturas+robustas+y+seguras" alt="Roles" />
+  </a>
+</p>
+
 ---
 
 ## 🧑‍💻 Sobre Mí
 
-**Ingeniero en Sistemas Computacionales** egresado de **UNITEC Campus Atizapán** especializado en el desarrollo de arquitecturas backend robustas, ciberseguridad y la integración estratégica de Inteligencia Artificial.
+<img align="right" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.png" alt="Mascota" width="150" />
 
-* 🛡️ Apasionado por el **desarrollo backend seguro**, administración avanzada de servidores **Linux** y seguridad informática.
-* 🤖 Interesado en la **visión artificial** (OpenCV, YOLO) y agentes autónomos.
-* 🚀 Mi portafolio completo interactivo está disponible en **[inakisobera.me](https://inakisobera.me/)**.
+**Ingeniero en Sistemas Computacionales** egresado de **UNITEC Campus Atizapán** (2023 – 2026), especializado en el desarrollo de arquitecturas backend robustas, la integración estratégica de Inteligencia Artificial y el aseguramiento de infraestructuras críticas.
+
+* 🛡️ Apasionado por el **desarrollo backend seguro**, la administración avanzada de servidores **Linux** y la seguridad informática.
+* 🤖 Interesado en la **visión artificial** (OpenCV, YOLO), el **Model Context Protocol (MCP)** y los agentes autónomos.
+* 🎓 Cursando la **Maestría en Dirección de Proyectos** en UNITEC Campus Atizapán (2026 – en curso).
+* 🌎 Español nativo · Inglés 75%.
+* 🚀 Mi portafolio completo e interactivo está en **[inakisobera.me](https://inakisobera.me/)** · [Descargar CV](https://inakisobera.me/cv/cv_inaki_sobera.pdf).
+
+<br clear="right" />
 
 ---
 
 ## 🛠️ Tecnologías y Herramientas
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,python,cs,ruby,bash,spring,flask,express,postgres,mysql,redis,powerbi,linux,docker,git,githubactions,neovim,react,nextjs,ts,tailwind&perline=11" alt="Stack" />
+</p>
+
 | Categoría | Tecnologías |
 | :--- | :--- |
-| **Lenguajes** | `Java`, `Python`, `C#`, `Ruby`, `Bash`, `SQL` |
+| **Motor Backend** | `Java`, `Python`, `C#`, `Ruby`, `Bash`, `SQL` |
 | **Backend & APIs** | `Spring Boot`, `Flask`, `Express.js`, `REST APIs`, `WebSockets` |
-| **Base de Datos** | `PostgreSQL`, `MySQL`, `SQL Server`, `Redis` |
-| **DevOps & Herramientas** | `Linux (Admin)`, `Docker`, `Git / GitHub`, `CI/CD`, `Neovim` |
+| **Datos & BI** | `PostgreSQL`, `MySQL`, `SQL Server`, `Redis`, `Power BI` |
+| **Infraestructura** | `Linux (Admin)`, `Docker`, `Git / GitHub`, `CI/CD`, `Neovim` |
+| **Arquitectura & Patrones** | `MVC`, `Microservices`, `REST APIs`, `Sockets`, `Concurrency` |
 | **Frontend** | `React`, `Next.js`, `TypeScript`, `Tailwind CSS` |
 
 ---
 
 ## 🏆 Certificaciones Destacadas
 
-* 🐧 **Advanced Linux Systems Administration** — *Hack4u.io* (Código: `2154-4957-5308-3366`)
-* 🧠 **Oracle Cloud AI Foundations** — *Oracle*
-* 🐍 **Offensive Python Specialist** — *Hack4u.io* (Código: `4240-5530-1286-1447`)
+* 🐙 **GitHub Foundations** — *GitHub* (2026)
+* 🧠 **Oracle Cloud AI Foundations** — *Oracle* (2025)
+* 🐧 **Advanced Linux Systems Administration** — *Hack4u.io* (2025 · Código: `2154-4957-5308-3366`)
+* 🐍 **Offensive Python Specialist** — *Hack4u.io* (2024 · Código: `4240-5530-1286-1447`)
 
 ---
 
 ## 📂 Proyectos Destacados
 
+* 🧬 **[MCP Relational AI Gateway](https://github.com/nanisadw3/MCP-Relational-AI-Gateway)**: Portal de análisis y administración de bases de datos relacionales con Google Gemini bajo el estándar Model Context Protocol. Consultas en lenguaje natural y gráficos dinámicos. (`Flask`, `Google Gemini`, `MCP`)
 * 🎮 **[AI Survival Ecosystem](https://github.com/nanisadw3/Juego_pygame.git)**: Motor de simulación en tiempo real con agentes inteligentes autónomos y navegación dinámica. (`Python`, `Neural Logic`, `Pygame`)
 * ⚡ **[BattleNet Pokémon](https://github.com/nanisadw3/Pokemon-Game)**: Plataforma multijugador competitiva en tiempo real sincronizada a través de sockets. (`Node.js`, `WebSockets`, `React`)
 * 👁️ **[YOLO Kinetic Vision](https://github.com/nanisadw3/YOLO-Vision.git)**: Sistema de detección y clasificación de objetos a alta velocidad por visión computacional. (`OpenCV`, `Python`, `YOLO`)
 * 🔒 **[Cipher-Stream Chat](https://github.com/nanisadw3/Chat.git)**: Chat seguro con cifrado simétrico/asimétrico de extremo a extremo e implementación SSL/TLS. (`Cybersecurity`, `Python`, `Sockets`)
+
+---
+
+## 📊 GitHub Analytics & Performance
+
+<p align="center">
+  <a href="https://github.com/nanisadw3">
+    <img src="https://github-stats-extended.vercel.app/api?username=nanisadw3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170" />
+  </a>
+  <a href="https://github.com/nanisadw3">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nanisadw3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=nanisadw3&theme=tokyonight&hide_border=true" alt="Streak Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=nanisadw3&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</p>
+
+### 🧊 Contribuciones en 3D
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
+</p>
+
+### 🐍 Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nanisadw3/nanisadw3/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/output/github-snake.svg" />
+  </picture>
+</p>
 
 ---
 
@@ -57,6 +114,9 @@
 <p align="center">
   <a href="https://inakisobera.me/" target="_blank">
     <img src="https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/nanisadw3" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/i%C3%B1aki-sobera-sotomayor-40a87b300/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" />
@@ -67,22 +127,9 @@
   <a href="https://x.com/InakiSobera" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter" />
   </a>
-</p>
-
----
-
-## 📊 GitHub Analytics & Performance
-
-<p align="center">
-  <!-- Stats Generales -->
-  <a href="https://github.com/nanisadw3">
-    <img src="https://github-stats-extended.vercel.app/api?username=nanisadw3&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <a href="https://inakisobera.me/cv/cv_inaki_sobera.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Curriculum-CV-2ea44f?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CV" />
   </a>
 </p>
 
-<p align="center">
-  <!-- Top Languages -->
-  <a href="https://github.com/nanisadw3">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nanisadw3&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  </a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Gracias%20por%20visitar%20mi%20perfil&fontSize=20&fontColor=fff&animation=twinkling" width="100%" alt="Footer" />
