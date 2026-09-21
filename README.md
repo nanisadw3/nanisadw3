@@ -145,7 +145,7 @@
 <table align="center">
   <tr>
     <td align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg?v=2026092107" alt="Frases Motivacionales" width="540" />
+      <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/frases.svg?v=v3" alt="Frases Motivacionales" width="540" />
     </td>
     <td align="center" valign="middle">
       <img src="https://raw.githubusercontent.com/nanisadw3/nanisadw3/main/assets/mascota.gif" alt="Mascota GitHub" width="95" />
