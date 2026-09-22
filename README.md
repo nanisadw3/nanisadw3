@@ -52,6 +52,8 @@
 
 ## 📂 Proyectos Destacados
 
+* 🇲🇽 **[mcp-banxico](https://github.com/nanisadw3/mcp-banxico)**: Servidor MCP de código abierto que conecta asistentes de IA (Claude Desktop, Cursor, Gemini) con el Sistema de Información Económica de Banxico: tipo de cambio USD/MXN, INPC, UDIS y tasas de referencia. (`Python`, `MCP`, `Fintech`)
+* 🛡️ **[MCP Guard](https://github.com/nanisadw3/mcp-guard)**: Escáner de seguridad para servidores MCP. Audita capacidades, detecta operaciones destructivas o de escritura sin autenticación y genera reportes en JSON y SARIF para GitHub Code Scanning. (`Python`, `SARIF`, `DevSecOps`)
 * 🧬 **[MCP Relational AI Gateway](https://github.com/nanisadw3/MCP-Relational-AI-Gateway)**: Portal de análisis y administración de bases de datos relacionales con Google Gemini bajo el estándar Model Context Protocol. Consultas en lenguaje natural y gráficos dinámicos. (`Flask`, `Google Gemini`, `MCP`)
 * 🎮 **[AI Survival Ecosystem](https://github.com/nanisadw3/Juego_pygame.git)**: Motor de simulación en tiempo real con agentes inteligentes autónomos y navegación dinámica. (`Python`, `Neural Logic`, `Pygame`)
 * ⚡ **[BattleNet Pokémon](https://github.com/nanisadw3/Pokemon-Game)**: Plataforma multijugador competitiva en tiempo real sincronizada a través de sockets. (`Node.js`, `WebSockets`, `React`)
@@ -117,7 +119,7 @@
   <a href="https://github.com/nanisadw3" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/i%C3%B1aki-sobera-sotomayor-40a87b300/" target="_blank">
+  <a href="https://www.linkedin.com/in/inakisobera/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:inakisobera8@gmail.com">
