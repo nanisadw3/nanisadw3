@@ -52,6 +52,11 @@
 
 ## 📂 Proyectos Destacados
 
+<a href="https://github.com/itzamna-mx"><img src="https://avatars.githubusercontent.com/itzamna-mx" width="44" align="left" alt="Itzamná"></a>
+
+**[Itzamná](https://github.com/itzamna-mx)** · Los datos públicos de México, listos para la IA. Servidores MCP de código abierto que citan su fuente oficial. → [inakisobera.me/itzamna](https://inakisobera.me/itzamna/)
+<br clear="left">
+
 * 🇲🇽 **[mcp-banxico](https://github.com/nanisadw3/mcp-banxico)**: Servidor MCP de código abierto que conecta asistentes de IA (Claude Desktop, Cursor, Gemini) con el Sistema de Información Económica de Banxico: tipo de cambio USD/MXN, INPC, UDIS y tasas de referencia. (`Python`, `MCP`, `Fintech`)
 * 🧬 **[MCP Relational AI Gateway](https://github.com/nanisadw3/MCP-Relational-AI-Gateway)**: Portal de análisis y administración de bases de datos relacionales con Google Gemini bajo el estándar Model Context Protocol. Consultas en lenguaje natural y gráficos dinámicos. (`Flask`, `Google Gemini`, `MCP`)
 * 🎮 **[AI Survival Ecosystem](https://github.com/nanisadw3/Juego_pygame.git)**: Motor de simulación en tiempo real con agentes inteligentes autónomos y navegación dinámica. (`Python`, `Neural Logic`, `Pygame`)
